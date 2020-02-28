@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FORM</title>
+</head>
+
+<body>
+  <header>
+    <img src="image/yoda-eat-frog.gif" alt="eat frog">
+    <h1><b>FORM</b></h1>
+    <nav>
+      <a href="index.html">back</a>
+    </nav>
+  </header>
+  <hr>
+  <form action="https://formspree.io/xqkbqoao" method="POST">
+    <label>Tell me your name:
+      <input type="text" name="name" placeholder="name" required>
+    </label><br>
+    <label>How old are you?
+      <input type="number" name="age" value="">
+    </label><br>
+    <label>Tell me your email:
+      <input type="email" name="email" placeholder="email" required> <br>
+    </label>
+    <label>Your gender:
+      <input type="radio" name="gender" value="male">Male
+    </label>
+    <label>
+      <input type="radio" name="gender" value="female">female
+    </label>
+    <label>
+      <input type="radio" name="gender" value="Frog">Frog<br>
+    </label>
+    <label> What time is it?
+      <input type="time" name="time" value=""><br>
+    </label>
+    <label>Choose your color
+      <input type="color" name="color" value=""><br>
+    </label>
+    <p>Choose your favorite food:</p>
+    <label>Frog
+      <input type="checkbox" name="favorite food" value="frog">
+    </label>
+    <label> Two frogs
+      <input type="checkbox" name="favorite food" value="two-frogs">
+    </label><br>
+    <label>How much you love to eat frogs range from 0 to 10:
+      <input type="range" name="range" value="5" min="0" max="10"><br>
+    </label><br>
+    <p><i>Ok!Thanks for the answers!</i></p>
+    <label>
+      <input type="submit"> <br>
+    </label>
+  </form>
+
+</body>
+
+</html>
